@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@tools:sample/backgrounds/scenic"
+    android:background="@drawable/back"
     tools:context=".MainActivity">
 
     <ImageView
@@ -13,13 +13,13 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:layout_marginBottom="571dp"
+        android:contentDescription="My Profile Image"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@tools:sample/avatars"
-        android:contentDescription="My Profile Image" />
+        tools:srcCompat="@drawable/profile" />
 
     <Button
         android:id="@+id/button1"
