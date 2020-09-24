@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TwoButtonActivity3">
+
+
+    <EditText
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="글자를 입력해 주세요" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFCCBC"
+        android:text="글자 나타내기"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textIsSelectable="false" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C5CAE9"
+        android:text="페이스북 열기"
+        android:textStyle="bold"/>
+
+    <RadioGroup
+        android:id="@+id/Group1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/button8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="케이크를 들고 있는 곰돌이"
+            android:textStyle="bold"/>
+
+        <RadioButton
+            android:id="@+id/button9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="하와이 복장을 입고 있는 곰돌이"
+            android:textStyle="bold"/>
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="211dp"
+        android:layout_weight="0.76"
+        app:srcCompat="@drawable/image2" />
+
+</LinearLayout>

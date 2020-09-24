@@ -14,6 +14,7 @@
         android:layout_height="wrap_content"
         android:background="#BBDEFB"
         android:text="@string/gofacebook"
+        android:textStyle="bold"
         android:textColor="#000000" />
 
     <Button
@@ -22,6 +23,7 @@
         android:layout_height="wrap_content"
         android:background="#FFCCBC"
         android:text="@string/gocall911"
+        android:textStyle="bold"
         android:textColor="#000000" />
 
     <Button
@@ -30,6 +32,7 @@
         android:layout_height="wrap_content"
         android:background="#FFECB3"
         android:text="@string/openphoto"
+        android:textStyle="bold"
         android:textColor="#000000" />
 
     <Button
@@ -38,6 +41,7 @@
         android:layout_height="wrap_content"
         android:background="#DCEDC8"
         android:text="@string/back"
+        android:textStyle="bold"
         android:textColor="#000000" />
 
 </LinearLayout>

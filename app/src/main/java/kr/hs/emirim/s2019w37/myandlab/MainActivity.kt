@@ -10,7 +10,8 @@ class MainActivity : AppCompatActivity() {
 
     lateinit var mProfile : ImageView //멤버변수용 (mProfile)
     lateinit var mButton1 : Button //초기값을 나중에 넣는다(var)
-    lateinit var mButton2  :Button
+    lateinit var mButton2 : Button
+    lateinit var mButton3 : Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -19,6 +20,7 @@ class MainActivity : AppCompatActivity() {
         mProfile = findViewById(R.id.profile)
         mButton1 = findViewById(R.id.button1)
         mButton2 = findViewById(R.id.button2)
+        mButton3 = findViewById(R.id.button3)
 
         mButton1.setOnClickListener {
             val intent = Intent(this, FourbuttonActivity::class.java)
@@ -28,6 +30,10 @@ class MainActivity : AppCompatActivity() {
 
         mButton2.setOnClickListener {
             val intent = Intent(this, FourbuttonActivity2::class.java)
+            startActivity(intent)
+        }
+        mButton3.setOnClickListener {
+            val intent = Intent(this, TwoButtonActivity3::class.java)
             startActivity(intent)
         }
 
